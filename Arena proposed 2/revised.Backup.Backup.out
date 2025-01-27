@@ -1,0 +1,78 @@
+
+                                      ARENA Simulation Results
+                                     koshila - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Medical Centre                                              Run execution date : 1/23/2025
+Analyst: Rockwell Automation                                         Model revision date: 1/23/2025
+
+Replication ended at time      : 3000.0 Seconds 
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Patient.VATime                              3.0076     (Insuf)    1.2136     6.1254        100    
+Patient.NVATime                             .00000     (Insuf)    .00000     .00000        100    
+Patient.WaitTime                            21.420     (Insuf)    .00000     45.458        100    
+Patient.TranTime                            360.00     (Insuf)    360.00     360.00        100    
+Patient.OtherTime                           .00000     (Insuf)    .00000     .00000        100    
+Patient.TotalTime                           384.42     (Insuf)    363.13     407.45        100    
+Registration desk.Queue.WaitingTime         .27240     (Insuf)    .00000     1.8873         44    
+Nurse prescription handling.Queue.WaitingT  .74938     (Insuf)    .00000     2.4959        100    
+Medicine Collection 2.Queue.WaitingTime     18.999     (Insuf)    .00000     34.054         45    
+Medicine collection 1.Queue.WaitingTime     21.740     (Insuf)    .00000     44.613         55    
+Doctor Consultation.Queue.WaitingTime       .07874     (Insuf)    .00000     .99038         56    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Patient.WIP                                 12.814     (Insuf)    .00000     100.00     .00000    
+Doctor1.NumberBusy                          .00663     (Insuf)    .00000     1.0000     .00000    
+Doctor1.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Doctor1.Utilization                         .00663     (Insuf)    .00000     1.0000     .00000    
+Registrar1.NumberBusy                       .00753     (Insuf)    .00000     1.0000     .00000    
+Registrar1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Registrar1.Utilization                      .00753     (Insuf)    .00000     1.0000     .00000    
+Pharmacist 2.NumberBusy                     .02510     (Insuf)    .00000     1.0000     .00000    
+Pharmacist 2.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Pharmacist 2.Utilization                    .02510     (Insuf)    .00000     1.0000     .00000    
+Pharmacist 1.NumberBusy                     .03061     (Insuf)    .00000     1.0000     .00000    
+Pharmacist 1.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Pharmacist 1.Utilization                    .03061     (Insuf)    .00000     1.0000     .00000    
+Nurse1.NumberBusy                           .01417     (Insuf)    .00000     1.0000     .00000    
+Nurse1.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Nurse1.Utilization                          .01417     (Insuf)    .00000     1.0000     .00000    
+Registration desk.Queue.NumberInQueue       .00400     (Insuf)    .00000     3.0000     .00000    
+Nurse prescription handling.Queue.NumberIn  .02498     (Insuf)    .00000     7.0000     .00000    
+Medicine Collection 2.Queue.NumberInQueue   .28499     (Insuf)    .00000     20.000     .00000    
+Medicine collection 1.Queue.NumberInQueue   .39858     (Insuf)    .00000     28.000     .00000    
+Doctor Consultation.Queue.NumberInQueue     .00147     (Insuf)    .00000     2.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Patient.NumberIn                            100.00    
+Patient.NumberOut                           100.00    
+Doctor1.NumberSeized                        56.000    
+Doctor1.ScheduledUtilization                .00663    
+Registrar1.NumberSeized                     44.000    
+Registrar1.ScheduledUtilization             .00753    
+Pharmacist 2.NumberSeized                   45.000    
+Pharmacist 2.ScheduledUtilization           .02510    
+Pharmacist 1.NumberSeized                   55.000    
+Pharmacist 1.ScheduledUtilization           .03061    
+Nurse1.NumberSeized                         100.00    
+Nurse1.ScheduledUtilization                 .01417    
+System.NumberOut                            100.00    
+
+
+Simulation run time: 0.25 minutes.
+Simulation run complete.

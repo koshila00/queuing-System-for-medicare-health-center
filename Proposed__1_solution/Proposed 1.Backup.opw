@@ -1,0 +1,21 @@
+[RESOURCES]
+Doctor1
+Registrar1
+Pharmacist
+Cashier
+Nurse1
+[VARIABLES]
+Decide 1.NumberOut False
+Payment Counter.NumberIn
+Medicine collection.NumberIn
+Medicine collection.NumberOut
+Exit.NumberOut
+Patient arrival.NumberOut
+Nurse prescription handling.NumberIn
+Payment Counter.NumberOut
+Registration desk.NumberOut
+Nurse prescription handling.NumberOut
+Registration desk.NumberIn
+Doctor Consultation.NumberOut
+Doctor Consultation.NumberIn
+Decide 1.NumberOut True
